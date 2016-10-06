@@ -1,0 +1,6 @@
+#ifndef GET_MATHEMATICAL_OPERATION_H
+#define GET_MATHEMATICAL_OPERATION_H
+
+int getMathematicalOperation();
+
+#endif // !GET_MATHEMATICAL_OPERATION_H
