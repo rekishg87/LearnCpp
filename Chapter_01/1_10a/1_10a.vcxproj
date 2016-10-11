@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{E6CBCA9A-6B28-4448-92B9-A847E5BFEAB6}</ProjectGuid>
+    <ProjectGuid>{0010B8CB-E164-4792-9691-005AD57AEB9B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My1_12</RootNamespace>
+    <RootNamespace>My1_10a</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,13 +145,15 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="io.h" />
+    <ClInclude Include="geometry.h" />
+    <ClInclude Include="math.h" />
+    <ClInclude Include="square.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1_12.cpp" />
-    <ClCompile Include="io.cpp" />
+    <ClCompile Include="1_10a.cpp" />
+    <ClCompile Include="square.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{FA45D79F-6B5B-45C9-9CF3-19256D7D7035}</ProjectGuid>
+    <ProjectGuid>{60E0A399-9855-4671-BA82-2254879B4B99}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My1_10b</RootNamespace>
+    <RootNamespace>My1_12</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -145,19 +145,13 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="calculateResult.h" />
-    <ClInclude Include="getMathematicalOperation.h" />
-    <ClInclude Include="getUserInput.h" />
-    <ClInclude Include="printResult.h" />
+    <ClInclude Include="io.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1_10b.cpp" />
-    <ClCompile Include="calculateResult.cpp" />
-    <ClCompile Include="getMathematicalOperation.cpp" />
-    <ClCompile Include="getUserInput.cpp" />
-    <ClCompile Include="printResult.cpp" />
+    <ClCompile Include="1_12.cpp" />
+    <ClCompile Include="io.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

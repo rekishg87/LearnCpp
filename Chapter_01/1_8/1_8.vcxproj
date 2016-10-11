@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B8E9F4F7-2CD7-47EE-91B4-907767D7123F}</ProjectGuid>
+    <ProjectGuid>{7F791FA4-403C-4AD7-B95F-8E70551DDA86}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My1_4</RootNamespace>
+    <RootNamespace>My1_8</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -149,7 +149,8 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="1_4.cpp" />
+    <ClCompile Include="1_8.cpp" />
+    <ClCompile Include="add.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
